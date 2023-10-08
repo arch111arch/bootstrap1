@@ -13,18 +13,40 @@
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-auto">
-                <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item mr-auto">
-                <a class="nav-link" href="/about">About</a>
-            </li>
-            <li class="nav-item mr-auto d-block d-sm-none">
-                <a class="nav-link" href="/login">Sign In / Sign Up</a>
-            </li>
-        </ul>
 
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-auto">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item mr-auto">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdownMenuList"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuList">
+                        <p class="dropdown-item">One</p>
+                        <p class="dropdown-item">Two</p>
+                        <p class="dropdown-item">Three</p>
+                    </div>
+
+
+                </li>
+                <li class="nav-item mr-auto d-block d-sm-none">
+                    <a class="nav-link" href="/login">Sign In / Sign Up</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2">
