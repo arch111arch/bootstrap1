@@ -1,3 +1,22 @@
 body{
     background-color:aliceblue;
+  
+}
+
+.navigation{
+    background-color: rgb(44, 199, 255);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    color:darkslategray;
+}
+
+.callout-bg {
+    background-color: cadetblue;
 }
